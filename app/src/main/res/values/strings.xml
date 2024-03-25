@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AudioAppColor</string>
+    <string name="audio_translation_app">Audio Translation App</string>
+    <string name="black">Black</string>
+    <string name="green">Green</string>
+    <string name="purple">Purple</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="y" />
+    <string name="yellow">Yellow</string>
+</resources>

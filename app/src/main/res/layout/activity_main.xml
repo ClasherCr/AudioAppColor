@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/audio_translation_app"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/blackbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="348dp"
+        android:backgroundTint="#2B2B2B"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/black"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/greenbutton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/greenbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/green"
+        android:textAlignment="center"
+        android:textColor="#0D47A1"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/purplebutton"
+        app:layout_constraintTop_toBottomOf="@+id/blackbutton" />
+
+    <Button
+        android:id="@+id/purplebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/purple"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greenbutton" />
+
+    <Button
+        android:id="@+id/redbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#FF1100"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/red"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/purplebutton"
+        app:layout_constraintTop_toBottomOf="@+id/purplebutton" />
+
+    <Button
+        android:id="@+id/yellowbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FFE925"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/yellow"
+        android:textAlignment="center"
+        android:textColor="#EC407A"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/redbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
